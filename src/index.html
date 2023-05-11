@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    
+  </head>
+  <body>
+
+
+<!-- support Ukraine -->
+
+
+<div class="support-container">
+  <div class="wrapper">
+    <h2 class="support-title">Support Ukraine</h2>
+
+    <svg class="support-icon" width="20" height="32">
+      <use href="./images/icons.svg#icon-arms-icon"></use>
+    </svg>
+  </div>
+
+  <div class="swiper-container">
+    <div class="logoContainer"></div>
+  </div>
+  <button
+    class="swiper-button-next"
+    type="button"
+    aria-label="Scroll to show more founds"
+  >
+    <svg class="swiper-button-next-icon" width="22" height="22">
+      <use href='./images/icons.svg#icon-arrow-down-icon'></use>
+    </svg>
+  </button>
+
+
+
+   <!-- scroll-up  -->
+
+  <button type="button" class="btn-up btn-up-hide"></button>
+
+
+
+        
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <include src="./partials/example.html"></include>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
